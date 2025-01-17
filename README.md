@@ -44,10 +44,6 @@ I’d love to hear your thoughts on this project! Feel free to:
   
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/kartikay-sharma2004/) or reach out via email at kartikaysharmaa2004@gmail.com.
 
-## 📌 Future Enhancements
-- Add more interactive components to enrich the UI experience.
-- Optimize performance for larger datasets and complex animations.
-- Explore integrating backend services for dynamic content.
 
 ## 🖋️ Author
 **Kartikay Sharma**
