@@ -4,6 +4,9 @@ A **pixel-perfect UI clone** of [Rejouice.com](https://rejouice.com), built usin
 
 ---
 
+![Capture](https://github.com/user-attachments/assets/07a6e6ff-840f-4db0-b471-303a9e482fb0)
+
+
 ## 🌟 **Features**  
 - **Smooth GSAP Animations**: Elegant and seamless animations to enhance user experience.  
 - **Interactive Scroll Effects**: Scroll-triggered animations that bring the interface to life.  
@@ -11,6 +14,7 @@ A **pixel-perfect UI clone** of [Rejouice.com](https://rejouice.com), built usin
 - **Modern UI**: A sleek and visually appealing design that mirrors the original Rejouice.com.  
 
 ---
+
 
 ## 🚀 **Live Demo**  
 Check out the live version of the project here:  
