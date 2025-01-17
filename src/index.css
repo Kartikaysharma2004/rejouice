@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Inter-Light";
+  src: url("./fonts/SuisseIntl-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./fonts/SuisseIntl-Regular.woff2") format("woff2");
+}
+
+.title,
+.list,
+.h2 {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+}
+h1 {
+  font-family: "Inter-Regular";
+}
+.page-1-bottom,
+.page2 h1,
+.cursor {
+  font-family: "Inter-Light";
+}
+.page3 h1,
+.subpage3,
+.page-4,
+.page-6,
+.page-7, .footer h3 {
+  font-family: "Inter-Light";
+}
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+@media (max-width: 768px) {
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .slide-animation {
+    animation: slide 19s linear infinite;
+  }
+}
+
+.stroke-animation {
+  transition: transform 0.3s ease-in-out;
+}
+
+.stroke-animation:hover {
+  transform: scale(1.1);
+}
